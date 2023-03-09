@@ -146,6 +146,14 @@ section{
     font-weight: 200;
 }
 
-.button:hover{
+i{
+    transition: all .5s;
+}
+
+i:hover{
     transform: translate(-2px, -2px);
+}
+
+.shareItens i:hover{
+    color: #6d7f97;
 }
