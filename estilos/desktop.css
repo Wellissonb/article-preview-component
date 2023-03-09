@@ -10,7 +10,7 @@ main{
 }
 
 .image{
-       width: 40%;
+       width: 45%;
        height: 100% !important;
        border-radius: 15px 0px 0px 15px;
 }
@@ -21,7 +21,7 @@ section{
     gap: 0px;
 
     padding: 40px;
-    width: 60%;
+    width: 55%;
 }
 
 
@@ -57,7 +57,7 @@ p{
     top: 130px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
 
-    display: flex;
+    display: none;
     width: 300px !important;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
     
