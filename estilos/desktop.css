@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 1000px){
+
+main{
+    height: 340px;
+    display: flex;
+    width: 800px;
+    overflow: visible;
+}
+
+.image{
+       width: 40%;
+       height: 100% !important;
+       border-radius: 15px 0px 0px 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    padding: 40px;
+    width: 60%;
+}
+
+
+.profile{
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size: 1.9em;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 30px;
+    line-height: 24px;
+    color: hsl(214, 17%, 51%) !important;
+    font-size: 15px;
+}
+
+
+.shareItens{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.share{
+    justify-content: center;
+    position: absolute;
+    border-radius: 15px;
+    right: -102px;
+    top: 130px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
+
+    display: flex;
+    width: 300px !important;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    
+}
+
+.share::before{
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 40px solid hsl(217, 19%, 35%);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: rotateZ(180deg);
+    top: 90%;
+}
+
+.share #posClickShare{
+    display: none;
+}
+
+.share p{
+    margin: 0px;
+    color: white;
+    font-weight: 400;
+}
+
+div#shareIcon{
+    display: none;
+}
+
+}
